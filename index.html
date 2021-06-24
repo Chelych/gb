@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- DEAFULT -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMG/favicon.ico">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP CDN -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- FONTAWESOME KIT -->
+    <script src="https://kit.fontawesome.com/19b56b18fc.js" crossorigin="anonymous"></script>
+
+    <!-- LOCAL CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css?ver=3.0">
+    <title>GB Mobile Car & Truck Repair | GTA | Home</title>
+    <!-- JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="">
+    <!-- <section class="pop-up-section">
+        <div class="popup-window">
+            <!-- <img src="IMG/popup3.jpg" class="popup-img"> -->
+    <!--     <div class="popup-right">
+                <h3 class="popup-h3">get the latest news about our activities</h3>
+                <!--<p>To promote more inclusive and sustainable development by equipping Africa’s tech entrepreneurs with capabilities to design and scale-up groundbreaking innovations for the real economy.</p>-->
+    <!--     <form>
+                    <label for="email">E-Mail Address <span class="required-input">*</span></label>
+                    <input name="email" type="email" class="newsletter-email" required><br>
+
+                </form>
+                <a href="#" . class="cta cta2 sub">subscribe</a>
+                <a href="#.." class="cta cta1 close-btn" onclick="close_popup()">not now</a>
+            </div>
+        </div>
+    </section>-->
+
+
+    <!-- BACK TO TOP BUTTON -->
+    <a href="#">
+        <div class="back-to-top-btn back-to-top-btn-visible btt-hidden"><i class="fas fa-angle-up"></i></div>
+    </a>
+
+
+
+    <!-- HORIZONTAL PROGRESSIVE SCROLL -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <!-- BACKGROUND IMAGE CAROUSEL -->
+
+    <div id="carouselExampleIndicators" class="carousel slide hero-wrapper hero-carousel" data-ride="carousel">
+        <div class="blackLayer"></div>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 car-img" src="./IMG/carousel1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 car-img" src="./IMG/carousel2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 car-img" src="./IMG/carousel3.jpg" alt="Third slide">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="header-wrapper">
+    <header class="container header-container">
+        <div class="row header-row">
+            <img src="IMG/logo.png" class="logo logo-regular" alt="logo" href="index.html">
+            <img src="IMG/logored.png" class="logo logo-white" alt="logo" href="index.html">
+            <nav class="navigation" id="navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="" class="nav-a">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-a">About Us</a></li>
+                    <li class="nav-item"><a href="" class="nav-a">Services</a></li>
+                    <li class="nav-item"><a href="#." class="nav-a">Emergency</a></li>
+                    <li class="nav-item"><a href="#." class="nav-a">Contact Us</a></li>
+
+                    <li class="nav-item social-nav-item"><a href="#." class="nav-a" id="social-nav-li">Social<i class="fas fa-caret-down social-arrow-down"></i></a>
+
+                        <ul class="list-social">
+                            <li><a href="#." class="social-a"><i class="fab fa-instagram"></i><span class="social-a-span">Instagram</span></a></li>
+                            <li><a href="#." class="social-a"><i class="fab fa-twitter"></i><span class="social-a-span">Twitter</span></a></li>
+                            <li><a href="#." class="social-a"><i class="fab fa-facebook-f"></i><span class="social-a-span">Facebook</span></a></li>
+                            <li><a href="#." class="social-a"><i class="far fa-envelope"></i><span class="social-a-span">E-mail</span></a></li>
+                        </ul>
+
+                    </li>
+
+                   <!-- <li class="nav-item mode-nav-item">
+                        <div class="mode-switch-wrapper">
+                            <input type="checkbox" class="checkbox" id="checkbox">
+                            <label for="checkbox" class="label">
+                               <i class="fas fa-sun"></i>
+                                <i class="fas fa-moon"></i>
+                                
+                                <div class="ball"></div>
+                            </label>
+                        </div>
+                    </li>-->
+                </ul>
+            </nav>
+            <a href="#." onclick="burgerRotate()" class="burgerA">
+                <div class="burgerWrapper">
+                    <div class="burger-line1 burger-line"></div>
+                    <div class="burger-line2 burger-line"></div>
+                </div>
+            </a>
+        </div>
+    </header>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="hero-wrapper">
+        <section class="hero-section container">
+            <div class="row hero-row">
+                <div class="col-12 col-md-12 col1-hero">
+                    <h1 class="h1-hero hidden-heroh1">Fixing It Right<br><span>The First Time</span></h1>
+                     <p class="hero-p">We ensure customer satisfaction by completing all repairs the first time around.</p>
+                    <!-- <div class="hero-social-container">
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-whatsapp"></i></a>
+                   <a href="#"><i class="fab fa-viber"></i></a>
+                   <a href="#"><i class="fab fa-steam"></i></a>
+               </div>-->
+                    <div class="hero-btn-container hero-btns-hidden">
+                        <a class="cta ctaHero1" href="#.">learn more <i class="fas fa-angle-right"></i></a>
+                        <a class="cta ctaHero2 actual-hero2btn" href="#.">call us <i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-md-6 col2-hero">
+               <img src="IMG/dete3.png" class="hero-kid" alt="happy child">
+           </div>-->
+            </div>
+        </section>
+    </div>
+    <!-- ABOUT US SECTION -->
+    <div class="abt-wrapper">
+        <section class="abt-section container">
+            <div class="h2-row row">
+                <h2 class="heading-h2 about-us-heading">about us</h2>
+            </div>
+            <div class="row abt-row">
+                <div class="col-12 col-md-4 abt-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>years of experience</h3>
+                    <p>GB Mobile Car & Truck Repair is a team of skilled mechanics with years of experience under their belts. We handle all types of repairs and servicing needs, irrespective of the make or model of your automobile.</p>
+                </div>
+                <div class="col-12 col-md-4 abt-card abt-card-middle">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>trustworthy</h3>
+                    <p>Our reputation is built on a bedrock of honesty and integrity. We never recommend repairs that are not necessary, allowing you to save on both time and money.</p>
+                </div>
+                <div class="col-12 col-md-4 abt-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>cheap</h3>
+                    <p>You can be sure that when you bring your car or truck to us, you’ll get the best experience at the lowest prices.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- FEATURED SECTION -->
+    <div class="featured-wrapper">
+        <section class="featured-container container">
+            <div class="row row-featured">
+                <div class="col-12 col-md-6 featured-col1">
+                    <img src="IMG/officee.jpg" alt="garage" class="featured-img">
+                </div>
+                <div class="col-12 col-md-6 featured-col2">
+                    <h2 class="heading-h2 featured-heading">Auto Repairs and Services in GTA</h2>
+                    <p class="featured-text">Auto emergencies can have a serious impact in your daily lives. From failing to reach your destination on time to getting stranded in the middle of nowhere, a minor glitch in your vehicle could turn your day into a nightmare. To help drivers in GTA avoid such nightmares, auto repairs and mobile service by GB Mobile Car & Truck Repair ensures preventative maintenance and optimal performance of your vehicles.<span class="orange-text"> Our mechanics not only keep your automobile running at full power, but also preserve its condition. From inspections to replacements, our team of professionals get the job done with excellent workmanship.</span></p>
+                    <a href="#." class="cta ctaFeatured">schedule <i class="fas fa-calendar-check"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <!-- ABOUT ME -->
+
+
+
+    <section class="break-section">
+        <div class="break-container container-fluid">
+            <div class="row break-row">
+                <div class="col-12 col-md-12 break-col break-col1">
+                    <p class="break-text">Quality Tire Services<br>That Will Keep You Rolling</p>
+                    <div class="hero-btn-container hero-btns-hidden break-btn-container">
+                        <a class="cta ctaBreak1" href="#.">EMAIL US <i class="far fa-envelope"></i></a>
+                        <a class="cta ctaBreak2" href="#.">CALL US <i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="count-section">
+        <div class="container count-container">
+            <div class="row count-row">
+                <div class="col-12 col-md-4 count-col1 count-col">
+                    <div class="count-number-wrapper">
+                        <h2 class="count-h2-number">7</h2>
+                        <h2 class="count-h2-text">YEARS OF SERVICE</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 count-col2 count-col">
+                    <div class="count-number-wrapper">
+                        <h2 class="count-h2-number">100+</h2>
+                        <h2 class="count-h2-text">SATISFIED CUSTOMERS</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 count-col3 count-col">
+                    <div class="count-number-wrapper">
+                        <h2 class="count-h2-number">3</h2>
+                        <h2 class="count-h2-text">GARAGES</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <section class="bridge-container container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 bridge-col1">
+                <div class="row h2-row-about">
+                    <h2 class="heading-h2 bridge-heading">General Service</h2>
+
+                </div>
+                <h3 class="h4-bridge">General Repair & Auto Electrical Services for Your Car and Truck</h3>
+                <p class="featured-text bridge-text">Think you need a quick oil change? Or maybe you need a general inspection of your car or truck? We carry a variety of oil grades, both regular and synthetic, for all types of engines. We also check the air pressure in tires, fluid levels in engines as well as suspension and brake systems.</p>
+                <a class="cta ctaFeatured" href="#.">read more <i class="fas fa-book"></i></a>
+            </div>
+
+            <div class="col-12 col-md-6 bridge-col2">
+            </div>
+        </div>
+    </section>
+  
+    <section class="testimonial-section">
+        <div class="container testimonial-container">
+           <div class="h2-row row">
+               <h2 class="heading-h2 testimonials-heading">Testimonials</h2>
+           </div>
+            <div class="row testimonial-row">
+                <div class="col-md-4 col-12 testimonial-col">
+                   <img src="IMG/test1.png">
+                   <span class="testimonial-name">Elliott Azim</span>
+                   <div class="testimonialRating-container">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                    <p>Excellent service. Glen, Charlton and Jay are honest, courteous and hardworking. If you’re looking for a dependable (and mobile) mechanic, then look no further. Thanks again!</p>
+                </div>
+                <div class="col-md-4 col-12 testimonial-col">
+                   <img src="IMG/test2.png">
+                   <span class="testimonial-name">Romana Lyon</span>
+                                      <div class="testimonialRating-container">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                    <p>Had a Great experience with Glen. He put a new Stage 1 Racing clutch into my Mazda Miata. Drives great. Shifts better than ever. Really nice work at a great price. Had to drop the car off overnight to him (in Caledon) and he gave me a ride home (since I had no car to get me back).
+Friendly guy 🙂👍 Get him before business pucks up too much. 😉</p>
+                </div>
+                <div class="col-md-4 col-12 testimonial-col">
+                   <img src="IMG/test3.png">
+                   <span class="testimonial-name">Julian Heaven</span>
+                                      <div class="testimonialRating-container">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                    <p>I’m 100% satisfied with the service that I received. I will definitely use this service again if I need to, highly recommend.in the pass I have used lots of different people to fix my car, and this company I can say was the best.👍🏽</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container-fluid contact-container">
+
+            <div class="row">
+                <div class="col-12 col-md-6 contact-col1">
+
+                    <div class="contact-container">
+                                               <div class="contactInfoCol">
+                            <h3><i class="fas fa-map-marked-alt"></i> Address</h3>
+                            <p>4 Fernbrook Cres Brampton, ON L6Z 3P3</p>
+                        </div>
+                                                <div class="contactInfoCol">
+                            <h3><i class="fas fa-phone-alt"></i>Let's talk</h3>
+                            <p>647-627-6918</p>
+                        </div>
+                        <div class="contactInfoCol">
+                            <h3><i class="fas fa-paper-plane"></i>Send Us mail</h3>
+                            <p>gbmobilerepair@gmail.com</p>
+                        </div>
+                    </div>
+</div>        
+                <div class="col-12 col-md-6 contact-col2">
+                    <form class="contact-form" method="post" action="#">
+                        <div>
+                            <label for="name">Name<span class="required-input">*</span></label>
+                            <input name="name" type="text" class="contact-name" required>
+
+                        </div>
+                        <label for="email">E-mail Address<span class="required-input">*</span></label>
+                        <input name="email" type="email" class="contact-email" required><br>
+
+                        <label for="message">Message<span class="required-input">*</span></label>
+                        <textarea name="message" class="contact-message" required></textarea>
+                    </form>
+                    <button type="submit" form="form1" value="Submit" id="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <div class="loader-wrapper">
+        <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="upperFooter-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 footer-col">
+                        <h3 class="footer-h3">contact us</h3>
+                        <ul class="contactInfoFooter-ul">
+                            <li class="footerAdress"><i class="fa fa-map-marker icon-first-col" aria-hidden="true"></i>4 Fernbrook Cres
+                            Brampton, ON
+                            L6Z 3P3</li>
+                            <li><i class="fa fa-phone icon-first-col" aria-hidden="true"></i>647-627-6918</li>
+                            <li><i class="fa fa-envelope icon-first-col" aria-hidden="true"></i>gbmobilerepair@gmail.com</li>
+                        </ul>
+                        <div class="social-wrapper-footer">
+                            <a href="#."><i class="fab fa-instagram"></i></a>
+                            <a href="#."><i class="fab fa-twitter"></i></a>
+                            <a href="#."><i class="fab fa-facebook"></i></a>
+                            <a href="#."><i class="far fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 footer-col">
+                        <h3 class="footer-h3">open time</h3>
+                        <div class="footer-second-col-content">
+                            <h4 class="footer-h3-subcategory">Opening Day:</h4>
+                            <p class="footerWorkingHours">Monday - Friday: 8pam to 6pm Saturday: 9am to 5pm</p>
+                            <h4 class="footer-h3-subcategory">Vacation:</h4>
+                            <p>All Sunday Day<br>All Vacation Holiday</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 footer-col">
+                        <h3 class="footer-h3">navigation</h3>
+                        <ul class="footerNav-ul">
+                            <li><a href="#.">Home</a></li>
+                            <li><a href="#.">About Us</a></li>
+                            <li><a href="#.">Services</a></li>
+                            <li><a href="#.">Emergency</a></li>
+                            <li><a href="#.">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottomFooter-wrapper">
+            <p class="footer-copyright">Copyright &copy; GB Mobile Car & Truck Repair 2021</p>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="JS/script.js"></script>
+
+
+</html>
